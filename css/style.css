@@ -310,10 +310,6 @@ main{
     .footer-content{
         font-size: 13px;
     }
-
-    .footer-content{
-        visibility: visible;
-    }
 }
 
 /* EFEITO DE SUMIR E APARECER NO SCROLL */
