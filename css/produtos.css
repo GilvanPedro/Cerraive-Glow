@@ -11,13 +11,13 @@ footer{
     margin: 10px;
 }
 
-.product-name{
-    margin: auto;
-}
-
 .inner-content-product{
     display: flex;
     flex-direction: row;
+}
+
+.product{
+    text-align: center;
 }
 
 .inner-content-product .product-price{
