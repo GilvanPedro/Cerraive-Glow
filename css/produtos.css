@@ -11,6 +11,10 @@ footer{
     margin: 10px;
 }
 
+.product-name{
+    text-align: center;
+}
+
 .inner-content-product{
     display: flex;
     flex-direction: row;
