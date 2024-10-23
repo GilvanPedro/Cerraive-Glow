@@ -1,0 +1,42 @@
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-indent: 4em;
+}
+
+.containner-sobre{
+    margin: 20px;
+}
+
+@media(max-width: 800px){
+    p{
+        text-indent: 2em;
+        
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    footer{
+        position: relative;
+    }
+}
