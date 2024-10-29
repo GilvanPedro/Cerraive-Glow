@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial;
+}
+
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+/* header */
+
+.header-inner-content{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    background-color: #2c2c2c;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #2c2c2c;
+    z-index: 99;
+}
+
+.menu>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    color:#a218c8;
+}
+
+.logo span{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon-container img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.nav-icon-container img:first-child{
+    margin-right: 1rem;
+}
+
+nav ul li{
+    color: white;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    transform: translate(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.menu-button{
+    display: none;
+}
+
+header{
+    background-image: radial-gradient(#ffF, #b0b0b0);
+
+}
+
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.header-bottom-side-left h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-bottom-side-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-bottom-side-left button{
+    background-color: #a218c8;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.header-bottom-side-left button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.header-bottom-side-left button:hover{
+    background-color: #74128f;
+
+}
+
+.header-bottom-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom-side-right img{
+    width: 300px;
+}
+
+/* header */
+
+/* main content */
+
+main{
+    background-color: #ebebeb;
+}
+
+.gray-background{
+    background-color: #2c2c2c;
+}
+
+.title-coming{
+    text-align: center;
+    color: #c800ffac;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.page-inner-content{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cols{
+    display: grid;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+    
+.cols-3 img{
+    width: 600px;
+    max-width: 100%;
+    align-items: center;
+}
+
+.cols-4{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.cols-4 img{
+    width: 300px;
+    max-width: 100%;
+}
+
+.cols>*{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cols>*:hover{
+    transform: translateY(-5px);
+}
+
+.section-title{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+}
+
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background-color: #a218c8;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+.product{
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name{
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.rate{
+    color: #8d18c8;
+    font-size: 1.3rem;
+}
+
+.product-price span{
+    font-weight: 600;
+}
+
+.contato-content p{
+    margin: 20px;
+}
+
+
+form {
+	margin: 40px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.inputPadrao {
+	display: block;
+	margin: 0 0 20px;
+	padding-top: 10px;
+    padding-left: 0;
+	width: 100%;
+}
+.comoPrefereContato{
+    cursor: pointer;
+}
+
+.checkbox {
+	margin: 20px 0;
+    border: none;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(255, 174, 23);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transition: 1s all;
+    transform: scale(1.2);
+}
+
+/* main content */
+
+/* footer content */
+
+.footer-content{
+    color: white;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* footer content */
+
+@media(max-width: 800px){
+    .logo{
+        font-size: 1.2rem;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .header-bottom-side{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    nav{
+        position: absolute;
+        background-color: #2c2c2c;
+        width: 100%;
+        top: 45px;
+        display: none;
+    }
+
+    .show-menu nav{
+        display: block;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        text-align: center;
+        padding: 0.8rem;
+    }
+
+    .enviar{
+        font-size: 13px;
+    }
+
+    #checkbox{
+        text-align: center;
+    }
+
+    .header-bottom-side-left h2{
+        font-size: 2.2rem;
+    }
+
+    .header-bottom-side-right img{
+        padding-top: 1rem;
+    }
+
+    .title-coming{
+        font-size: 20px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .cols{
+        padding: 3rem;
+    }
+
+    .cols-3 img{
+        width: 95%;
+    }
+
+    .cols-4{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content{
+        font-size: 13px;
+    }
+    .footer-content{
+        visibility: visible;
+    }
+}
+
+/* EFEITO DE SUMIR E APARECER NO SCROLL */
+
+.header-bottom-side-left, .header-bottom-side-right, .page-inner-content{
+    visibility: hidden;
+} 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerravie Glow - Contato</title>
+
+    <link rel="shortcut icon" href="./img/cerravie.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/produtos.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="header-inner-content">
+            <h1 class="logo">CERRAVIE<span>GLOW</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="./img/cart.png">
+                <img src="./img/menu.png" class="menu-button">
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div>
+            <div class="contato-content">
+                <p>
+                    Entrar em contato com a Cerraive Glow é a maneira ideal de se conectar com uma empresa comprometida com o cuidado e a beleza natural da pele. Com uma equipe dedicada a oferecer produtos de alta qualidade e um atendimento personalizado, a Cerraive Glow está sempre pronta para tirar dúvidas, ajudar na escolha dos produtos mais adequados ao seu tipo de pele e oferecer suporte em qualquer etapa da sua experiência de compra.
+                </p>
+                <p>
+                    Para falar conosco, você pode usar os canais de comunicação disponíveis. Seja pelo telefone, e-mail ou redes sociais, garantimos que você terá um atendimento rápido e atencioso. Nossa equipe de especialistas está preparada para orientar você sobre nossos produtos, seus ingredientes naturais, e o melhor modo de incorporá-los em sua rotina de cuidados com a pele. A Cerraive Glow valoriza o bem-estar e a satisfação de cada cliente, por isso, queremos ouvir suas necessidades e ajudá-lo a alcançar seus objetivos de beleza e cuidado pessoal.
+                </p>
+                <p>
+                    Entre em contato hoje mesmo e descubra como a Cerraive Glow pode transformar sua experiência de cuidados com a pele. Seja para fazer perguntas, dar sugestões ou compartilhar sua experiência conosco, ficaremos felizes em ouvir você.
+                </p>
+                <form>
+                    <label class="inputPadrao" for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" required>
+                    
+                    <label class="inputPadrao" for="email">Email</label>
+                    <input type="email" id="email" required placeholder="exemplo@gmail.com">
+        
+                    <label class="inputPadrao"for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+        
+                    <label class="inputPadrao" for="mensagem">Mensagem</label>
+                    <textarea class="inputPadrao" cols="68" rows="10" id="mensagem" required placeholder="insira a sua mensam aqui"></textarea> 
+        
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radioEmail"><input type="radio" name="contato" value="email" id="radioEmail" class="comoPrefereContato">Email</label>
+        
+                        <label for="radioTelefone"><input type="radio" name="contato" value="telefone" id="radioTelefone" class="comoPrefereContato">Telefone</label>
+        
+                        <label for="radioWhatsapp"><input type="radio" name="contato" value="Whatsapp" id="radioWhatsapp" checked class="comoPrefereContato">Whatsapp</label>
+                    </fieldset>
+        
+                    <fieldset>
+                        <p>Qual horário prefere ser atendido?</p>
+                        <select id="checkbox">
+                            <option value="checkbox">Manha</option>
+                            <option value="checkbox">Tarde</option>
+                            <option value="checkbox">Noite</option>
+                        </select>
+                    </fieldset>    
+        
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber as novidades por email?</label>
+        
+                    <input type="submit" value="Envuar Formulário" class="enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <p>Copyright © 2024 - Ceraive Glow - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
