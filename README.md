@@ -59,4 +59,4 @@ Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) par
 
 ---
 
-Desenvolvido com ❤️ por [Seu Nome]
+Desenvolvido com ❤️ por Gilvan
